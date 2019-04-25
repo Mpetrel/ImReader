@@ -14,6 +14,8 @@
 
     <style name="MySearchViewStyle" parent="Widget.AppCompat.SearchView">
         <item name="android:maxWidth">10000dp</item>
+        <item name="searchHintIcon">@null</item>
+        <item name="queryBackground">@android:color/transparent</item>
     </style>
 
 </resources>
